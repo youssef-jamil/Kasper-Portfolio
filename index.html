@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Kasp is a template for a portfolio website">
+  <meta name="keywords" content="Kasp, portfolio, template">
+  <meta name="author" content="Kasp">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--CSS-->
+  <link rel="stylesheet" href="Styles/style.css">
+  <!--Normalize-->
+  <link rel="stylesheet" href="Styles/normalize.css">
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <!--Animate.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <!--All-->
+  <link rel="stylesheet" href="Styles/all.min.css">
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <title>Kasper | Template Two</title>
+</head>
+
+<body>
+  <!--Start Header-->
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="Images/logo.png" alt="Kasper Logo" loading="lazy">
+      </a>
+
+      <nav>
+        <i class="fas fa-bars toggle-menu"></i>
+        <ul class="links">
+          <li class="link"><a href="#" class="active">Home</a></li>
+          <li class="link"><a href="#Services">Services</a></li>
+          <li class="link"><a href="#About">About</a></li>
+          <li class="link"><a href="#Portfolio">Portfolio</a></li>
+          <li class="link"><a href="#Contact">Contact</a></li>
+          <li class="link"><a href="#Blog">Blog</a></li>
+        </ul>
+
+        <div class="form">
+          <i class="fas fa-search"></i>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+  <!--End Header-->
+  <!--Start Landing-->
+  <section class="landing">
+    <div class="overlay"></div>
+    <div class="text">
+      <div class="content">
+        <h2>Welcome to Kasper</h2>
+        <p>Your one-stop solution for all your web development needs.</p>
+      </div>
+    </div>
+
+    <i class="fas fa-angle-left change-background fa-2x"></i>
+    <i class="fas fa-angle-right change-background fa-2x"></i>
+
+    <ul class="bullets">
+      <li><i class="fas fa-circle"></i></li>
+      <li class="active"><i class="fas fa-circle"></i></li>
+      <li><i class="fas fa-circle"></i></li>
+    </ul>
+
+  </section>
+  <!--End Landing-->
+  <!--Start Services-->
+  <section class="Services" id="Services">
+    <div class="container">
+      <div class="main-heading">
+        <h2>Services</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo mollis,
+          auctor consequat urna.</p>
+      </div>
+      <div class="services-container">
+        <div class="service-box">
+          <i class="fas fa-laptop-code fa-3x"></i>
+          <div class="service-description">
+            <h3>Web Development</h3>
+            <p>We build fast, responsive, and modern websites tailored to your needs. From landing pages to full-scale
+              platforms, we
+              ensure your website is optimized for performance, security, and a seamless user experience.</p>
+          </div>
+        </div>
+        <div class="service-box">
+          <i class="fas fa-paint-brush fa-3x"></i>
+          <div class="service-description">
+            <h3>Graphic Design</h3>
+            <p>Our creative design team brings your brand to life with stunning visuals. From logos to social media
+              graphics, we craft
+              designs that communicate your message clearly and leave a lasting impression.</p>
+          </div>
+        </div>
+        <div class="service-box">
+          <i class="fas fa-chart-line fa-3x"></i>
+          <div class="service-description">
+            <h3>SEO Optimization</h3>
+            <p>Boost your online visibility with our SEO strategies. We optimize your website for search engines,
+              helping you rank
+              higher, attract more visitors, and turn traffic into loyal customers.</p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <i class="fas fa-mobile-alt fa-3x"></i>
+          <div class="service-description">
+            <h3>App Development</h3>
+            <p>We create user-friendly and scalable mobile applications for Android and iOS. Our apps are designed to
+              deliver smooth
+              performance, engaging interfaces, and powerful functionality.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End Services-->
+  <!--Start design-->
+  <section class="design">
+    <div class="image">
+      <img src="./images/mobile.png" alt="design" loading="lazy">
+    </div>
+
+    <div class="text">
+      <h2>Our Design Comes with....</h2>
+      <ul>
+        <li>Responsive layouts</li>
+        <li>Modern UI/UX</li>
+        <li>Clean code</li>
+        <li>Fast loading times</li>
+      </ul>
+    </div>
+  </section>
+  <!--End design-->
+  <!--Start Portfolio-->
+  <section class="portfolio" id="Portfolio">
+    <div class="container">
+      <div class="main-heading">
+        <h2>Portfolio</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo mollis,
+          auctor consequat urna.</p>
+      </div>
+      <ul class="shuffle">
+        <li class="active">All</li>
+        <li>Web Design</li>
+        <li>Graphic Design</li>
+        <li>App Development</li>
+      </ul>
+    </div>
+
+    <div class="imag-container">
+      <div class="box">
+        <img src="./images/shuffle-01.jpg" alt="Shuffle Photo">
+        <div class="caption">
+          <h4>Awesome Image</h4>
+          <p>Photography</p>
+        </div>
+      </div>
+      <div class="box">
+        <img src="./images/shuffle-02.jpg" alt="Shuffle Photo">
+        <div class="caption">
+          <h4>Awesome Image</h4>
+          <p>Photography</p>
+        </div>
+      </div>
+      <div class="box">
+        <img src="./images/shuffle-03.jpg" alt="Shuffle Photo">
+        <div class="caption">
+          <h4>Awesome Image</h4>
+          <p>Photography</p>
+        </div>
+      </div>
+      <div class="box">
+        <img src="./images/shuffle-04.jpg" alt="Shuffle Photo">
+        <div class="caption">
+          <h4>Awesome Image</h4>
+          <p>Photography</p>
+        </div>
+      </div>
+      <div class="box">
+        <img src="./images/shuffle-05.jpg" alt="Shuffle Photo">
+        <div class="caption">
+          <h4>Awesome Image</h4>
+          <p>Photography</p>
+        </div>
+      </div>
+      <div class="box">
+        <img src="./images/shuffle-06.jpg" alt="Shuffle Photo">
+        <div class="caption">
+          <h4>Awesome Image</h4>
+          <p>Photography</p>
+        </div>
+      </div>
+      <div class="box">
+        <img src="./images/shuffle-07.jpg" alt="Shuffle Photo">
+        <div class="caption">
+          <h4>Awesome Image</h4>
+          <p>Photography</p>
+        </div>
+      </div>
+      <div class="box">
+        <img src="./images/shuffle-08.jpg" alt="Shuffle Photo">
+        <div class="caption">
+          <h4>Awesome Image</h4>
+          <p>Photography</p>
+        </div>
+      </div>
+
+      <a href="#" class="more">See More</a>
+
+    </div>
+  </section>
+  <!--End Portfolio-->
+
+  <!--Start Video section-->
+  <section class="video">
+    <video autoplay muted loop>
+      <source id="video" src="./images/awesome-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="text">
+      <div class="icon-video">
+        <a class="link-video" id="#video" aria-label="Play Video"><i class="fas fa-play fa-3x"></i></a>
+      </div>
+      <h2>Super Awesome Video Here</h2>
+      <p>It's a great video showcasing our services and expertise.</p>
+      <button>See More</button>
+    </div>
+  </section>
+  <!--End a Video section-->
+  <!--Start about section-->
+  <section class="about" id="About">
+    <div class="container">
+      <div class="main-heading">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo mollis,
+          auctor consequat urna.</p>
+      </div>
+      <img src="./images/about.png" alt="About photo" loading="lazy">
+  </section>
+  <!--End about section-->
+  <!--Start stats section-->
+  <section class="stats">
+    <div class="container">
+      <div class="box">
+        <i class="fas fa-mug-hot"></i>
+        <div class="number">1,236</div>
+        <h3>Coffee Drinks</h3>
+      </div>
+      <div class="box">
+        <i class="far fa-folder"></i>
+        <div class="number">256</div>
+        <h3>Completed Projects</h3>
+      </div>
+      <div class="box">
+        <i class="far fa-envelope"></i>
+        <div class="number">1,743</div>
+        <h3>Mail Sent</h3>
+      </div>
+      <div class="box">
+        <i class="fas fa-trophy"></i>
+        <div class="number">17</div>
+        <h3>Awards Received</h3>
+      </div>
+    </div>
+  </section>
+  <!--End  stats section-->
+  <!--Start Skills -->
+  <section class="skills">
+    <div class="container">
+      <div class="testimonials">
+        <h3 class="heading-section">What Our Clients Say</h3>
+        <p class="dsecription-section">"Kasper transformed our online presence. Their team is professional, creative,
+          and easy to work with. Highly
+          recommend!"</p>
+        <div class="content">
+          <img src="./images/skills-01.jpg" alt="image" loading="lazy">
+          <div class="text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo
+              mollis,
+              auctor consequat urna.</p>
+            <h4>Jane Smith ,Marketing Manager</h4>
+          </div>
+        </div>
+        <div class="content">
+          <img src="./images/skills-02.jpg" alt="image" loading="lazy">
+          <div class="text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo
+              mollis,
+              auctor consequat urna.</p>
+            <h4>Jane Smith ,Marketing Manager</h4>
+          </div>
+        </div>
+        <ul class="bullets">
+          <li></li>
+          <li class="active"></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="skills-per">
+        <h3 class="heading-section">Skills</h3>
+        <p class="dsecription-section">Web Design, Graphic Design, App Development</p>
+        <div class="prog-holder">
+          <h4>Web Design</h4>
+          <div class="prog">
+            <span style="width: 90%;" data-width="90%"></span>
+          </div>
+        </div>
+        <div class="prog-holder">
+          <h4>Graphic Design</h4>
+          <div class="prog">
+            <span class="prog-80" style="width: 80%;" data-width="80%"></span>
+          </div>
+        </div>
+        <div class="prog-holder">
+          <h4>App Development</h4>
+          <div class="prog">
+            <span class="prog-70" style="width: 70%;" data-width="70%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--End Skills-->
+  <!--Start Quote-->
+  <section class="quote">
+    <div class="container">
+      <div class="quote-icon">
+        <i class="fas fa-quote-left"></i>
+      </div>
+      <q>"Success is not final, failure is not fatal: It is the courage to continue that counts."</q>
+      <span class="span-quote">Winston Churchill</span>
+      <div class="quote-icon">
+        <i class="fas fa-quote-right"></i>
+      </div>
+    </div>
+  </section>
+  <!--End Quote-->
+  <!--Start Pricing-->
+  <section class="pricing">
+    <div class="container">
+      <div class="main-heading">
+        <h2>Pricing</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo mollis,
+          auctor consequat urna.</p>
+      </div>
+      <div class="plans">
+        <div class="plan-box">
+          <div class="head">
+            <h3>Basic</h3>
+            <span class="dollar">19</span>
+          </div>
+          <ul>
+            <li>5 Projects</li>
+            <li>10 GB Storage</li>
+            <li>Email Support</li>
+            <li>Help Center Access</li>
+          </ul>
+          <div class="foot">
+            <a href="#">Buy now</a>
+          </div>
+        </div>
+        <div class="plan-box featured">
+          <div class="head">
+            <h3>Standard</h3>
+            <span class="dollar">49</span>
+          </div>
+          <ul>
+            <li>20 Projects</li>
+            <li>50 GB Storage</li>
+            <li>Priority Email Support</li>
+            <li>Help Center Access</li>
+          </ul>
+          <div class="foot">
+            <a href="#">Buy now</a>
+          </div>
+        </div>
+        <div class="plan-box">
+          <div class="head">
+            <h3>Premium</h3>
+            <span class="dollar">99</span>
+          </div>
+          <ul>
+            <li>Unlimited Projects</li>
+            <li>200 GB Storage</li>
+            <li>24/7 Phone & Email Support</li>
+            <li>Help Center Access</li>
+          </ul>
+          <div class="foot">
+            <a href="#">Buy now</a>
+          </div>
+        </div>
+        <div class="plan-box">
+          <div class="head">
+            <h3>Ultimate</h3>
+            <span class="dollar">199</span>
+          </div>
+          <ul>
+            <li>Unlimited Projects</li>
+            <li>Unlimited Storage</li>
+            <li>24/7 Phone & Email Support</li>
+            <li>Priority Email Support</li>
+          </ul>
+          <div class="foot">
+            <a href="#">Buy now</a>
+          </div>
+        </div>
+      </div>
+      <p class="contact-price">Contact Us if you have any questions or need further assistance.</p>
+      <a href="#" class="contact-link">Contact Us</a>
+    </div>
+  </section>
+  <!--End Pricing-->
+  <!--Start Subscription-->
+  <section class="subscription">
+    <div class="container">
+      <form action="">
+        <i class="fas fa-envelope"></i>
+        <input type="email" name="mail" placeholder="Your Email" required />
+        <input type="submit" value="Subscribe" />
+      </form>
+      <p class="privacy">By subscribing, you agree to our <a href="#">Privacy Policy</a>.</p>
+    </div>
+  </section>
+  <!--End Subscription  -->
+  <!--Start Contact-->
+  <section class="contact" id="Contact">
+    <div class="container">
+      <div class="main-heading">
+        <h2>Contact Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo mollis,
+          auctor consequat urna.</p>
+      </div>
+      <div class="contact-content">
+        <form class="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-info">
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Address</h3>
+            <p>123 Main St, City, Country</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <h3>Phone</h3>
+            <p>+1 (123) 456-7890</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <p>info@kasper.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End Contact-->
+  <!--Start Blog-->
+  <section class="blog" id="Blog">
+    <div class="container">
+      <div class="main-heading">
+        <h2>Our Blog</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo mollis,
+          auctor consequat urna.</p>
+      </div>
+      <div class="blog-container">
+        <div class="blog-post">
+          <img src="images/shuffle-01.jpg" alt="Blog Post 1">
+          <div class="post-content">
+            <h3>Web Design Trends 2023</h3>
+            <p>Explore the latest trends in web design that are shaping the digital landscape this year.</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+        <div class="blog-post">
+          <img src="images/shuffle-02.jpg" alt="Blog Post 2">
+          <div class="post-content">
+            <h3>Graphic Design Tips</h3>
+            <p>Learn essential tips and tricks to improve your graphic design skills and create stunning visuals.</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+        <div class="blog-post">
+          <img src="images/shuffle-03.jpg" alt="Blog Post 3">
+          <div class="post-content">
+            <h3>App Development Best Practices</h3>
+            <p>Discover best practices for developing high-quality mobile applications that users love.</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End Blog-->
+  <!--Start Footer-->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Kasper. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!--End Footer-->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
